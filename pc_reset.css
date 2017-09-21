@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*
+Excersize 3
+Home Page of Pandaisia Chocolates
+Author: Conner S. Duncan
+Date:   09.14.19
+
+   Filename: pc_reset.css
+
+*/
+
+
+/* Structural Styles */
+
+article, aside, figcaption, figure, footer, header, main, nav, section {
+  display: block;
+}
+
+
+/* Typographic Styles */
+
+nav ul

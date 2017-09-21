@@ -1,0 +1,54 @@
+        @charset "utf-8";
+      /*
+Excersize 3
+Home Page of Pandaisia Chocolates
+Author: Conner S. Duncan
+Date:   09.14.19
+
+   Filename: pc_home.css
+
+*/
+      /* Body Styles */
+
+      body {
+        max-width: 960px;
+        min-width: 640px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      /* Body Header Styles */
+
+      body>header>img {
+        display: block;
+        width: 100%;
+      }
+
+      body>header>nav.horizantalNavigation li {
+        width: 20%;
+      }
+      /* Horizontal Navigation Styles */
+
+      nav.horizantalNavigation li {
+        display: block;
+        float: left;
+      }
+
+      nav.horizantalNavigation a {
+        display: block;
+        text-align: center;
+        /* Left Column Styles */
+        section#leftColumn {
+          clear: left;
+          float: left;
+          width: 33%;
+        }
+        /* Right Column Styles */
+        section#rightColumn {
+          float: left;
+          width: 67%;
+        }
+        section#rightColumn img {}
+        /* Footer Styles */
+        /*
+*/
