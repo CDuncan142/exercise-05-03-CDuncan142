@@ -1,5 +1,6 @@
-        @charset "utf-8";
-      /*
+@charset "utf-8";
+
+/*
 Excersize 3
 Home Page of Pandaisia Chocolates
 Author: Conner S. Duncan
@@ -8,47 +9,90 @@ Date:   09.14.19
    Filename: pc_home.css
 
 */
-      /* Body Styles */
 
-      body {
-        max-width: 960px;
-        min-width: 640px;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      /* Body Header Styles */
 
-      body>header>img {
-        display: block;
-        width: 100%;
-      }
+/* Body Styles */
 
-      body>header>nav.horizantalNavigation li {
-        width: 20%;
-      }
-      /* Horizontal Navigation Styles */
+body {
+  max-width: 960px;
+  min-width: 640px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-      nav.horizantalNavigation li {
-        display: block;
-        float: left;
-      }
 
-      nav.horizantalNavigation a {
-        display: block;
-        text-align: center;
-        /* Left Column Styles */
-        section#leftColumn {
-          clear: left;
-          float: left;
-          width: 33%;
-        }
-        /* Right Column Styles */
-        section#rightColumn {
-          float: left;
-          width: 67%;
-        }
-        section#rightColumn img {}
-        /* Footer Styles */
-        /*
-*/
+/* Body Header Styles */
+
+body>header>img {
+  display: block;
+  width: 100%;
+}
+
+body>header>nav.horizantalNavigation li {
+  width: 20%;
+}
+
+
+/* Horizontal Navigation Styles */
+
+nav.horizantalNavigation li {
+  display: block;
+  float: left;
+}
+
+nav.horizantalNavigation a {
+  display: block;
+  text-align: center;
+}
+
+
+/* Left Column Styles */
+
+section#leftColumn {
+  clear: left;
+  float: left;
+  width: 33%;
+  padding: 1.5em;
+}
+
+
+/* Right Column Styles */
+
+section#rightColumn img {
+  float: left;
+  width: 67%;
+}
+
+section#rightColumn img {
+  display: block;
+  width: 100%
+}
+
+section#rightColumn>nav.horizantalNavigation li {
+  width: 25%;
+}
+
+
+/* Footer Styles */
+
+footer {
+  /*background-color: rgb(255, 0, 29);*/
+  clear: left;
+}
+
+footer::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+footer>nav.verticalNavigation {
+  float: left;
+  width: 22%;
+}
+
+footer>section#contactinfo {
+  float: left;
+  width: 34%;
+}
