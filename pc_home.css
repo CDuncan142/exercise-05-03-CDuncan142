@@ -14,11 +14,11 @@ Date:   09.14.19
 /* Body Styles */
 
 body {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 960px;
   min-width: 640px;
   width: 95%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -29,19 +29,19 @@ body>header>img {
   width: 100%;
 }
 
-body>header>nav.horizantalNavigation li {
+body>header>nav.horizontalNavigation li {
   width: 20%;
 }
 
 
 /* Horizontal Navigation Styles */
 
-nav.horizantalNavigation li {
+nav.horizontalNavigation li {
   display: block;
   float: left;
 }
 
-nav.horizantalNavigation a {
+nav.horizontalNavigation a {
   display: block;
   text-align: center;
 }
@@ -52,14 +52,14 @@ nav.horizantalNavigation a {
 section#leftColumn {
   clear: left;
   float: left;
-  width: 33%;
   padding: 1.5em;
+  width: 33%;
 }
 
 
 /* Right Column Styles */
 
-section#rightColumn img {
+section#rightColumn {
   float: left;
   width: 67%;
 }
@@ -69,7 +69,7 @@ section#rightColumn img {
   width: 100%
 }
 
-section#rightColumn>nav.horizantalNavigation li {
+section#rightColumn>nav.horizontalNavigation li {
   width: 25%;
 }
 
@@ -77,7 +77,7 @@ section#rightColumn>nav.horizantalNavigation li {
 /* Footer Styles */
 
 footer {
-  /*background-color: rgb(255, 0, 29);*/
+  background-color: rgb(71, 52, 29);
   clear: left;
 }
 
@@ -92,7 +92,7 @@ footer>nav.verticalNavigation {
   width: 22%;
 }
 
-footer>section#contactinfo {
+footer>section#contactInfo {
   float: left;
   width: 34%;
 }
